@@ -11,7 +11,9 @@ For this project, I will program and build a dual traffic light control Finite S
 
 <img width="351" height="305" alt="image" src="https://github.com/user-attachments/assets/8a511655-ddfb-4a86-8a41-40bfab22516e" />
 
-•	DE10Lite GPIO Connector to breadboard breakout board
+•	DE10Lite GPIO Connector to breadboard breakout
+
+<img width="520" height="265" alt="image" src="https://github.com/user-attachments/assets/dd2db038-a3a1-494d-a0db-aafd045ff5d1" />
 <img width="530" height="384" alt="image" src="https://github.com/user-attachments/assets/b583dd51-8571-4835-91e2-5c3f552507a6" />
 
 
