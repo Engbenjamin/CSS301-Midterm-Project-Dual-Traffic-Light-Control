@@ -51,3 +51,20 @@ This week, I learned how to build 6 LED light control circuits as well as how to
 
 <img width="775" height="548" alt="image" src="https://github.com/user-attachments/assets/6ec787ce-7f70-46ef-98ad-3895ca011029" />
 <img width="780" height="468" alt="image" src="https://github.com/user-attachments/assets/aa61a276-70e6-46d5-9ef7-c5621dd5d2dc" />
+
+-----
+## Week 2 Project Journal
+### Integrating External Traffic Light Circuit with Verilog FSM Control
+During the second week of my engineering project, I developed an external photoresistor vehicle sensor circuit and integrated it with a Verilog Finite State Machine (FSM) to establish hardware-in-the-loop traffic control.
+
+### Sensor Development and FSM Interfacing
+In the initial phase of this week's project, I focused on establishing a method to detect vehicle presence on the secondary farm road. To achieve this, I constructed a light-dependent voltage divider utilizing a photoresistor and a 5kΩ resistor, powered by the same 3.3V DC supply used to power the LED circuits. Testing verified the photoresistor had a resistance of 1.6kΩ when uncovered which changed to 12kΩ when blocked. As part of a voltage divider, the photoresistor will reliably cause the voltage divider node to drop from a digital HI to a digital LO.
+
+Subsequently, I tied this HI/LO digital signal directly into LightControlGPIO[35]. In my Verilog architecture, a top-level module routes this sensor logic into an internal traffic_light FSM sub-module, while a transistor_control driver maps the 3-bit state buses to the 3 individual hardware pins of the RYG LEDs. Finally, I tested the complete system: covering the vehicle photosensor successfully pulls the inverted Car variable high, prompting the FSM to transition the main highway lights from green to yellow to red, thereby allowing the farm lights to turn green. A delay is implemented before farm turns yellow then red and the FSM resets to highway green and farm red.
+
+### Conclusion
+This week, I learned how to design and build a photoresistor voltage divider for a car sensing circuit, and to integrate the sensor’s digital signal into a FSM program to control traffic light states. Now that my project is complete, I will know how to integrate a Verilog FSM program with external electrical circuits in future projects.
+
+<img width="747" height="501" alt="image" src="https://github.com/user-attachments/assets/23d0623e-6980-4c72-867c-f4873db6388f" />
+
+Link to video of completed project: [Midterm Project Video](https://drive.google.com/file/d/1tCqe3vNkD74XFXYHmWgxDHsn3ZSBRDGZ/view?usp=drive_link)
