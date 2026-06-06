@@ -21,18 +21,19 @@ For this project, I will program and build a dual traffic light control Finite S
 
 
 •	Parts already on hand
--2 breadboards
--Qty 6: 2N7000 NMOS enhancement-mode transistors
--Qty 6: 100Ω LED current limiting resistors
--Qty 2: Red LED
--Qty 2: Yellow LED
--Qty 2: Green LED
--Qty 1: Photoresistor
--Qty 1: 10MΩ resistor for photoresistor/car sensing circuit
+- Qty 2 breadboards
+- Qty 6: 2N7000 NMOS enhancement-mode transistors
+- Qty 6: 100Ω LED current limiting resistors
+- Qty 2: Red LED
+- Qty 2: Yellow LED
+- Qty 2: Green LED
+- Qty 1: 15kΩ Photoresistor
+- Qty 1: 5kΩ resistor for photoresistor/car sensing circuit
 
 •	Equipment used:
--DC power supply (UWB Electrical Engineering Labs)
--Digital Multimeter (UWB Electrical Engineering Labs)
+- DC power supply (UWB Electrical Engineering Labs)
+- Digital Multimeter (UWB Electrical Engineering Labs)
+- Quartus Prime Lite Software (UWB Electrical Engineering Labs)
 
 -------
 
@@ -65,6 +66,13 @@ Subsequently, I tied this HI/LO digital signal directly into LightControlGPIO[35
 ### Conclusion
 This week, I learned how to design and build a photoresistor voltage divider for a car sensing circuit, and to integrate the sensor’s digital signal into a FSM program to control traffic light states. Now that my project is complete, I will know how to integrate a Verilog FSM program with external electrical circuits in future projects.
 
-<img width="747" height="501" alt="image" src="https://github.com/user-attachments/assets/23d0623e-6980-4c72-867c-f4873db6388f" />
-
 Link to video of completed project: [Midterm Project Video](https://drive.google.com/file/d/1tCqe3vNkD74XFXYHmWgxDHsn3ZSBRDGZ/view?usp=drive_link)
+
+<img width="747" height="501" alt="image" src="https://github.com/user-attachments/assets/23d0623e-6980-4c72-867c-f4873db6388f" />
+<img width="825" height="458" alt="image" src="https://github.com/user-attachments/assets/d43c4114-aedd-4456-b612-57442d924867" />
+<img width="806" height="540" alt="image" src="https://github.com/user-attachments/assets/8f0fd6e8-a27c-46fb-be7f-76b634a217af" />
+<img width="821" height="536" alt="image" src="https://github.com/user-attachments/assets/469c38a9-f495-41e3-9b1a-14bfcf4da84a" />
+<img width="823" height="554" alt="image" src="https://github.com/user-attachments/assets/14bdfb09-eb54-4793-aabf-f83eded5bf5f" />
+
+
+
