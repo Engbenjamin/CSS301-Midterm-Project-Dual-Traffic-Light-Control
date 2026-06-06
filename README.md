@@ -76,5 +76,7 @@ Link to video of completed project: [Midterm Project Video](https://drive.google
 <img width="821" height="536" alt="image" src="https://github.com/user-attachments/assets/469c38a9-f495-41e3-9b1a-14bfcf4da84a" />
 <img width="823" height="554" alt="image" src="https://github.com/user-attachments/assets/14bdfb09-eb54-4793-aabf-f83eded5bf5f" />
 
+## Final Verilog Code
+Link to final Verilog program: [Traffic Light Program](https://docs.google.com/document/d/1Fr5GG45t-7ENKP57voqHZeAhvScyVqNH/edit?usp=sharing&ouid=107122112511265994254&rtpof=true&sd=true)
 
 
