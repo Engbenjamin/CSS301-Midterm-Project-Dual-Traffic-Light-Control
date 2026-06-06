@@ -5,6 +5,8 @@ CSS301 Midterm Project-Dual Traffic Light-Controller Finite State Machine
 ### Project Selection/Summary
 For this project, I will program and build a dual traffic light control Finite Sate Machine (FSM) utilizing a Terasic DE10Lite FPGA board. Through the board’s GPIO pins, it will control an dual external Red-Yellow-Green traffic light circuits, changing state depending on whether it senses a vehicle. The code will be adapted from a project online at FPGA4student.com while the external circuit will be designed and built separately.
 
+Link To Project Code: [FPGA4student, Traffic Light Controller](https://www.fpga4student.com/2016/11/verilog-code-for-traffic-light-system.html)
+
 -----
 ### Project Proof/Bill of Materials
 •	Used Terasic DE10Lite FPGA Board
